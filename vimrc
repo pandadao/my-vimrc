@@ -64,4 +64,6 @@ set smarttab
 set autoindent
 
 syntax on
-nnoremap <silent> <F5> :NERDTree<CR>
+" nnoremap <silent> <F5> :NERDTree<CR>  // press F5 will auto show the
+" nerdtree
+map <F2> :NERDTreeToggle<CR>
